@@ -22,6 +22,6 @@
 
 git clone -b lua https://github.com/sbwml/luci-app-alist package/alist
 git clone --depth 1 https://github.com/vernesong/OpenClash.git package/luci-app-openclash
-cd && package/luci-app-openclash && pushd luci-app-openclash/tools/po2lmo && make && sudo make install && popd
+cd package/luci-app-openclash && pushd luci-app-openclash/tools/po2lmo && make && sudo make install && popd
 
 # git clone https://github.com/rufengsuixing/luci-app-onliner package/onliner
